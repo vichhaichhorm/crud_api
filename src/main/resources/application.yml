@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: demo_department
+#  database postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/crud_api
+    username: postgres
+    password: 2003
+#spring data jpa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    properties:
+      hibernate:
+        format_sql: true
+
+
